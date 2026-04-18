@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints (large binary files)
+*.pth
+
+# Training outputs
+training_outputs_full/
+training_outputs_stage7/
+training_outputs_stages1-6/
+citl_unet_outputs/
+insufficient_trainings/
+
+# Calibration data (machine-specific)
+calibration_outputs/
+
+# Generated masks
+gs_masks/
+unet_masks/
+random_targets_and_masks/
+
+# SLM test outputs
+slm_test_outputs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Thesis source (separate repo)
+master_thesis/
